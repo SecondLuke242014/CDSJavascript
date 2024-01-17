@@ -1,5 +1,5 @@
 const CDS = {}
-import 'math.js'
+import 'css.js'
 
 CDS.getClass = function(name) {
   return document.querySelector("."+name)
