@@ -1,4 +1,4 @@
-var CDS = {}
+const CDS = {}
 import 'math.js'
 
 CDS.getClass = function(name) {
