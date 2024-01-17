@@ -1,9 +1,9 @@
-var CDS = {};
+var CDS = {}
 
-function CDS.getClass(name) {
-  return document.querySelector("."+name);
-};
+CDS.getClass = function(name) {
+  return document.querySelector("."+name)
+}
 
-function CDS.getId(name) {
-  return document.querySelector("#"+name);
-};
+CDS.getId = function(name) {
+  return document.querySelector("#"+name)
+}
