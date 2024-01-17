@@ -1,4 +1,5 @@
 var CDS = {}
+import 'math.js'
 
 CDS.getClass = function(name) {
   return document.querySelector("."+name)
